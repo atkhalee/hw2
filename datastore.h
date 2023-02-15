@@ -23,6 +23,7 @@ public:
     /**
      * Adds a product to the data store
      */
+		 // products will have keywrods that you would need to compare to
     virtual void addProduct(Product* p) = 0;
 
     /**

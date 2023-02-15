@@ -4,6 +4,7 @@
 #include <iostream>
 #include "product.h"
 
+
 class ProductParser
 {
 public:

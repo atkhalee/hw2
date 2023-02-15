@@ -15,7 +15,7 @@ public:
      * Returns the appropriate keywords that this product should be associated with
      */
     virtual std::set<std::string> keywords() const = 0;
-
+        //use parsestirng towords
     /**
      * Allows for a more detailed search beyond simple keywords
      */
@@ -25,11 +25,12 @@ public:
      * Returns a string to display the product info for hits of the search
      */
     virtual std::string displayString() const = 0;
-
+    //make a new string that contains that using string concatenation based on the format
     /**
      * Outputs the product info in the database format
      */
     virtual void dump(std::ostream& os) const;
+    //
 
     /**
      * Accessors and mutators
