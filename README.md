@@ -1,2 +1,2 @@
 # hw2 Amazon Shopping Cart
-  * Uses inheritance, polymporphism, and templates
+  * Inheritance, polymporphism, templates, iterators, stringstream
